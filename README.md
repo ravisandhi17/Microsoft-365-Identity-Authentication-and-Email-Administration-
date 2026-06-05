@@ -40,7 +40,7 @@ Verified successful account provisioning
 
 Tested user sign-in
 
-## Screenshot
+![IPCONFIG](screenshots/01-User-Administration-And-Licensing.png)
 
 
 
@@ -57,7 +57,8 @@ user2 → Global Reader
 
 Validated that user2 could view Microsoft 365 resources but could not make administrative changes.
 
-## Screenshot
+
+![IPCONFIG](screenshots/02-Global-Reader-Role-Assignment.png)
 
 
 
@@ -72,8 +73,9 @@ Password Reset Enabled = Selected
 
 Group Assigned = SSPR-Test-Users
 
-## Screenshot
+![IPCONFIG](screenshots/04-SSPR-Configuration.png)
 
+![IPCONFIG](screenshots/05-SSPR-Password-Reset-Test.png)
 
 
 
@@ -91,7 +93,8 @@ Questions Required For Registration = 5
 
 Questions Required For Reset = 3
 
-## Screenshot
+
+![IPCONFIG](screenshots/02-SSPR-Authentication-Methods.png)
 
 
 
@@ -106,8 +109,8 @@ Require Users To Register = Yes
 
 Reconfirmation Period = 180 Days
 
-## Screenshot
 
+![IPCONFIG](screenshots/03-SSPR-Registration-Policy.png)
 
 
 
@@ -121,8 +124,8 @@ Created a dedicated security group for SSPR users.
 user1
 user2
 
-## Screenshot
 
+![IPCONFIG](screenshots/04-SSPR-Test-Users-Group-Membership.png)
 
 
 
@@ -138,30 +141,14 @@ Verification code tested
 
 MFA challenge successfully completed
 
-## Screenshot
+
+![IPCONFIG](screenshots/03-MFA-Registration-Microsoft-Authenticator.png)
 
 
 
 
-## 8. Password Reset Testing
 
-Validated Self-Service Password Reset by completing the password recovery workflow without administrator assistance.
-
-## Workflow
-
-User selected Forgot Password
-
-Identity verified using Microsoft Authenticator
-
-New password created
-
-User successfully signed in with the new password
-
-## Result
-
-✅ Password reset successful
-
-## 9. Exchange Online Email Communication Testing
+## 8. Exchange Online Email Communication Testing
 
 Validated Outlook Online mailbox functionality and internal email communication.
 
@@ -172,12 +159,15 @@ User1 → User2
 Email sent successfully
 
 
+![IPCONFIG](screenshots/user1-sent-user2.png)
+
 
 
 User2
 
 Email received successfully
 
+![IPCONFIG](screenshots/user2-received-from-user1.png)
 
 
 
@@ -185,6 +175,7 @@ User2 → User1
 
 Reply sent successfully
 
+![IPCONFIG](screenshots/user2-sent-user1.png)
 
 
 
@@ -192,6 +183,7 @@ User1
 
 Reply received successfully
 
+![IPCONFIG](screenshots/user1-received-from-user2.png)
 
 
 
