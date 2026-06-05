@@ -57,6 +57,8 @@ user2 → Global Reader
 
 Validated that user2 could view Microsoft 365 resources but could not make administrative changes.
 
+![IPCONFIG](screenshots/SSPR/02-Global-Admin-Role-Assignment.png)
+
 
 ![IPCONFIG](screenshots/SSPR/02-Global-Reader-Role-Assignment.png)
 
