@@ -40,7 +40,7 @@ Verified successful account provisioning
 
 Tested user sign-in
 
-![IPCONFIG](screenshots/01-User-Administration-And-Licensing.png)
+![IPCONFIG](screenshots/SSPR/01-User-Administration-And-Licensing.png)
 
 
 
@@ -58,7 +58,7 @@ user2 → Global Reader
 Validated that user2 could view Microsoft 365 resources but could not make administrative changes.
 
 
-![IPCONFIG](screenshots/02-Global-Reader-Role-Assignment.png)
+![IPCONFIG](screenshots/SSPR/02-Global-Reader-Role-Assignment.png)
 
 
 
@@ -73,9 +73,9 @@ Password Reset Enabled = Selected
 
 Group Assigned = SSPR-Test-Users
 
-![IPCONFIG](screenshots/04-SSPR-Configuration.png)
+![IPCONFIG](screenshots/SSPR/04-SSPR-Configuration.png)
 
-![IPCONFIG](screenshots/05-SSPR-Password-Reset-Test.png)
+![IPCONFIG](screenshots/SSPR/05-SSPR-Password-Reset-Test.png)
 
 
 
@@ -94,7 +94,7 @@ Questions Required For Registration = 5
 Questions Required For Reset = 3
 
 
-![IPCONFIG](screenshots/02-SSPR-Authentication-Methods.png)
+![IPCONFIG](screenshots/SSPR/02-SSPR-Authentication-Methods.png)
 
 
 
@@ -110,7 +110,7 @@ Require Users To Register = Yes
 Reconfirmation Period = 180 Days
 
 
-![IPCONFIG](screenshots/03-SSPR-Registration-Policy.png)
+![IPCONFIG](screenshots/SSPR/03-SSPR-Registration-Policy.png)
 
 
 
@@ -125,7 +125,7 @@ user1
 user2
 
 
-![IPCONFIG](screenshots/04-SSPR-Test-Users-Group-Membership.png)
+![IPCONFIG](screenshots/SSPR/04-SSPR-Test-Users-Group-Membership.png)
 
 
 
@@ -142,7 +142,7 @@ Verification code tested
 MFA challenge successfully completed
 
 
-![IPCONFIG](screenshots/03-MFA-Registration-Microsoft-Authenticator.png)
+![IPCONFIG](screenshots/MFA/03-MFA-Registration-Microsoft-Authenticator.png)
 
 
 
@@ -159,7 +159,7 @@ User1 → User2
 Email sent successfully
 
 
-![IPCONFIG](screenshots/user1-sent-user2.png)
+![IPCONFIG](screenshots/EMAIL/user1-sent-user2.png)
 
 
 
@@ -167,7 +167,7 @@ User2
 
 Email received successfully
 
-![IPCONFIG](screenshots/user2-received-from-user1.png)
+![IPCONFIG](screenshots/EMAIL/user2-received-from-user1.png)
 
 
 
@@ -175,7 +175,7 @@ User2 → User1
 
 Reply sent successfully
 
-![IPCONFIG](screenshots/user2-sent-user1.png)
+![IPCONFIG](screenshots/EMAIL/user2-sent-user1.png)
 
 
 
@@ -183,7 +183,7 @@ User1
 
 Reply received successfully
 
-![IPCONFIG](screenshots/user1-received-from-user2.png)
+![IPCONFIG](screenshots/EMAIL/user1-received-from-user2.png)
 
 
 
