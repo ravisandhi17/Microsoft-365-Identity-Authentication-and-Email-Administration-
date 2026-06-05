@@ -122,6 +122,7 @@ Created a dedicated security group for SSPR users.
 
 ## Members
 user1
+
 user2
 
 
@@ -145,6 +146,7 @@ MFA challenge successfully completed
 ![IPCONFIG](screenshots/MFA/03-MFA-Registration-Microsoft-Authenticator.png)
 
 
+![IPCONFIG](screenshots/MFA/10-MFA-Enforcement-Status.png)
 
 
 
